@@ -1,0 +1,125 @@
+/* Color palette
+{"Blue Violet Color Wheel":"521f7d",
+    "White":"ffffff",
+    "CG Blue":"007ea7",
+    "Maximum Yellow Red":"fbbf60",
+    "Rifle Green":"51513d"}
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    font-family: "Roboto", sans-serif;
+}
+
+.landing {
+    min-height: 100vh;
+    /* background: url("./res/presentacion.JPG"); */
+    /* background-size: cover; */
+    padding: 0rem 5rem;
+}
+
+img.resize {
+    max-width: 60%;
+    max-height: 60%;
+    position: fixed;
+    top: 20%;
+    left: 50%;   
+}
+
+img.resize.logo {
+    /* position: absolute; */
+    left: 10%;
+    max-width: 30%;
+    max-height: 30%;
+}
+
+div.description-container {
+    justify-content: center;
+
+}
+
+nav {
+    display: flex;
+    background-color: #FBBF60;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+    width: 100%;
+    position: fixed;
+    left:0;
+}
+
+
+.nav-links {
+    font-family: "Redressed", sans-serif;
+    display: flex;
+    color: #51513D;
+    padding-right: 50px;
+    list-style: none;
+}
+
+.nav-links li {
+    padding-left: 10rem;
+    font-size: 1.2rem;
+}
+
+#logo {
+    font-family: "Redressed", cursive;
+    font-weight: lighter;
+    color: #51513D;
+    font-size: 2rem;
+    padding-left: 50px;
+}
+
+.big-text {
+    font-family: "Redressed", cursive;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(-50%, -30%);
+    color: midnightblue;
+}
+
+.intro {
+    background-color: black;
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-text {
+    color: aliceblue;
+    font-family: "Roboto";
+    font-size: 3rem;
+
+}
+
+.hide {
+    background: black;
+    overflow: hidden;
+}
+
+.hide span {
+    transform: translateY(100%);
+    display: inline-block;
+}
+
+.slider {
+    background: rgb(97, 105, 109);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+  }
